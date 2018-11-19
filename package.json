@@ -1,0 +1,24 @@
+{
+  "name": "lowriter",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:jack-pallot/lowriter.git",
+  "author": "Jack Pallot <me@jackpallot.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "jest": "^23.6.0",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "test": "jest --watch",
+    "lint": "standard --verbose | snazzy"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
